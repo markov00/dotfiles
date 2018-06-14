@@ -1,56 +1,39 @@
 # Taps
 tap 'caskroom/cask'
-tap 'caskroom/eid'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
-tap 'homebrew/bundle'
+
+brew 'git'
+brew 'zsh'
+brew 'zsh-completions'
 
 # Install Binaries
-brew 'awscli'
 brew 'bash' # Bash 4
 brew 'coreutils' # Those that come with macOS are outdated
-brew 'git'
+
 brew 'grep'
 brew 'mackup'
 brew 'mas'
 brew 'trash'
 brew 'tree'
-brew 'zsh'
-brew 'zsh-completions'
+
+
+
+# Web
+cask 'firefox'
+cask 'google-chrome'
 
 # Development
-brew 'php'
-brew 'mysql'
-brew 'node'
+cask 'iterm2'
+cask 'atom'
+# cask 'sublime-text'
+# cask 'insomnia' # http client
+# cask 'docker'
+# cask 'java'
 
-# Apps
-cask 'aerial'
-cask 'alfred'
-cask 'caffeine'
-cask 'docker'
-cask 'eid-be'
-cask 'eid-be-viewer'
-cask 'firefox'
-cask 'google-backup-and-sync'
-cask 'google-chrome'
-cask 'gpgtools'
-cask 'grammarly'
-cask 'insomnia'
-cask 'java'
-cask 'mysqlworkbench'
-cask 'now'
-cask 'phpstorm'
-cask 'quip'
-cask 'sequel-pro'
-cask 'shuttle'
+# General
 cask 'slack'
-cask 'sublime-text'
-cask 'torbrowser'
-cask 'tower'
-cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+cask 'grammarly'
 cask 'vlc'
 
 # Quicklook
@@ -76,4 +59,4 @@ mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
 mas 'Things', id: 904280696
 mas 'Tweetbot', id: 1384080005
-mas 'WhatsApp', id: 1147396723 
+mas 'WhatsApp', id: 1147396723

@@ -6,6 +6,8 @@ This repository serves as my way to help me setup and maintain my Mac. It takes 
 
 Read the blog post: https://medium.com/@driesvints/getting-started-with-dotfiles-76bf046d035c
 
+https://sourabhbajaj.com/mac-setup
+
 ## A Fresh macOS Setup
 
 ### Before you re-install
