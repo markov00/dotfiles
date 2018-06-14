@@ -93,6 +93,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+source /usr/local/Cellar/z/1.9/etc/profile.d/z.sh
+
 # NVM configured variables
 
 export NVM_DIR="$HOME/.nvm"

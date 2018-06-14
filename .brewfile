@@ -8,15 +8,15 @@ brew 'zsh'
 brew 'zsh-completions'
 
 # Install Binaries
-brew 'bash' # Bash 4
+# brew 'bash' # Bash 4
 brew 'coreutils' # Those that come with macOS are outdated
 
-brew 'grep'
-brew 'mackup'
-brew 'mas'
-brew 'trash'
+# brew 'grep'
+# brew 'mackup'
+# brew 'mas'
+# brew 'trash'
 brew 'tree'
-
+brew 'z'
 
 
 # Web
@@ -26,6 +26,7 @@ cask 'google-chrome'
 # Development
 cask 'iterm2'
 cask 'atom'
+brew 'vim'
 # cask 'sublime-text'
 # cask 'insomnia' # http client
 # cask 'docker'
@@ -50,13 +51,13 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
-mas '1Password', id: 1333542190
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Giphy Capture', id: 668208984
-mas 'Sip', id: 507257563
-mas 'Spark', id: 1176895641
-mas 'The Unarchiver', id: 425424353
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
-mas 'WhatsApp', id: 1147396723
+# mas '1Password', id: 1333542190
+# mas 'Byword', id: 420212497
+# mas 'Deckset', id: 847496013
+# mas 'Giphy Capture', id: 668208984
+# mas 'Sip', id: 507257563
+# mas 'Spark', id: 1176895641
+# mas 'The Unarchiver', id: 425424353
+# mas 'Things', id: 904280696
+# mas 'Tweetbot', id: 1384080005
+# mas 'WhatsApp', id: 1147396723
